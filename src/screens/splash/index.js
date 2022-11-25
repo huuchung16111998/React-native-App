@@ -12,9 +12,9 @@ export default function Splash({navigation}) {
   const handleGetToken = async () => {
     const dataToken = await AsyncStorage.getItem('AccessToken');
     if (!dataToken) {
-      navigation.replace('Login');
-    } else {
       navigation.replace('Home');
+    } else {
+      navigation.replace('Login');
     }
   };
 

@@ -4,7 +4,7 @@ import Routers from './routers';
 
 const App = () => {
   return (
-    <NavigationContainer>
+    <NavigationContainer independent={true}>
       <Routers />
     </NavigationContainer>
   );

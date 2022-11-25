@@ -4,7 +4,7 @@ import RootNavigator from './router/rootStack';
 
 export default function Home({navigation}) {
   return (
-    <NavigationContainer>
+    <NavigationContainer independent={true}>
       <RootNavigator />
     </NavigationContainer>
   );
