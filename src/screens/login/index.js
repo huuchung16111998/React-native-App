@@ -15,11 +15,11 @@ import {Eye, EyeActive} from '../../assets';
 export default function Login({navigation}) {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [seePassword, setSeePassword] = useState(true);
-  const [checkValidEmail, setCheckValidEmail] = useState(false);
+  // const [seePassword, setSeePassword] = useState(true);
+  // const [checkValidEmail, setCheckValidEmail] = useState(false);
 
   const handleCheckEmail = text => {
-
+    
     setEmail(text);
   };
 
