@@ -5,6 +5,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import axios from 'axios';
 import { TextInput } from 'react-native-gesture-handler';
 
+
 const UpdateScreen=(item)=>{
     // const [email,setEmail]=useState("");
     // const [username,setUserName]=useState("");
